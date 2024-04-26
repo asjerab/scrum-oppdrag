@@ -20,7 +20,9 @@ body{
 
 .footer-text {
     margin: 0;
-    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: "High Tower Text", sans-serif;
 }
 
 /* Navbar styles */
@@ -28,7 +30,7 @@ body{
     background-color: #333;
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 2vh 3vh;
 }
 
 .navbar div {
@@ -37,9 +39,11 @@ body{
 }
 
 .navbar div a {
-    color: #fff;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: "High Tower Text", sans-serif;
 }
 
 .navbar div a:hover {
@@ -91,4 +95,18 @@ form button{
     text-align: center;
     color: white;
     font-family: "High Tower Text", sans-serif;
+}
+
+.webText{
+    text-align: center;
+    color: white;
+    font-family: "High Tower Text", sans-serif;
+}
+
+.homeBtn{
+    width: 10vh;
+    height:5vh;
+    font-family: "High Tower Text", sans-serif;
+    border: 0.5vh solid black;
+    border-radius: 1vh;
 }

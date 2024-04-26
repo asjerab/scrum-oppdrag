@@ -19,7 +19,8 @@ create table teams
     member_1  varchar(255) null,
     member_2  varchar(255) null,
     member_3  varchar(255) null,
-    member_4  varchar(255) null
+    member_4  varchar(255) null,
+    team_leader_id integer null
 );
 
 

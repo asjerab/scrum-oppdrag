@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 
         $_SESSION["last_regeneration"] = time();
 
-        header("Location: ../../website/index.php?loggedin=true");
+        header("Location: ../../website/index/index.php?loggedin=true");
 
         $pdo = null;
         $stmt = null;

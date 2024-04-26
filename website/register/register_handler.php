@@ -1,9 +1,9 @@
 <?php
 
-require_once '../login_system/includes/dbh.inc.php';
-require_once '../login_system/includes/config_session.inc.php';
-require_once '../login_system/includes/signup_view.inc.php';
-require_once '../login_system/includes/login_view.inc.php';
+require_once '../../login_system/includes/dbh.inc.php';
+require_once '../../login_system/includes/config_session.inc.php';
+require_once '../../login_system/includes/signup_view.inc.php';
+require_once '../../login_system/includes/login_view.inc.php';
 function insertNewMember(object $pdo, string $nickname, string $selectedTeam)
 {
     $query = "UPDATE teams
