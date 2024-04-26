@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://w0.peakpx.com/wallpaper/127/826/HD-wallpaper-wizard-journey-wizard-deviantart-artist-artwork-digital-art.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar div {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar div a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar div a:hover {
+    color: #ffcc00;
+}
+
+.navbar div:last-child {
+    text-align: right;
+}
+
+.center_form{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: grey;
+    padding: 5vh;
+    margin: 2vh;
+    border-radius: 1vh;
+    border: 0.5vh solid black;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+form input{
+    padding: 1vh;
+    margin: 1vh;
+    align-self: center;
+    width: 50%;
+}
+
+form select{
+    padding: 1vh;
+    margin: 1vh;
+    align-self: center;
+    width: 50%;
+}
+
+form button{
+    padding: 1vh;
+    margin: 1vh;
+    align-self: center;
+    width: 50%;
+}
+
+.form_text{
+    text-align: center;
+    color: white;
+    font-family: "High Tower Text", sans-serif;
+}
