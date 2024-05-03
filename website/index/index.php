@@ -26,7 +26,6 @@ require_once '../teams/team_reg_handler.php';
         <div><a href="../teams/all_teams.php">Browse all teams</a></div>
         <div><a href="../tournament_status/team_ranking.php">Browse team rankings</a></div>
         <div><a href="../tournament_status/upcoming_games.php">Browse upcoming games</a></div>
-        <div><a href="../register/register_status.php">Your Register Status</a></div>
         <div style="color: white">
             <?php
             if (isset($_SESSION['user_id'])){

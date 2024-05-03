@@ -12,10 +12,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $selectedTeam = $_POST['selectedTeam'];
     $user_id = $_SESSION['user_id'];
     $register_status = 'Registered';
-    if (!checkUserRegistration($pdo, $user_id)) {
+    if (checkUserRegistration($pdo, $user_id)) {
     insertNewMember($pdo, $nickname, $selectedTeam);
     registerUser($pdo, $user_id, $register_status);
+    echo 'Succesfully registered, go back home';
+echo '<link rel="stylesheet" href="../../website/styling/style.css" type="text/css">';
+echo '<button class="homeBtn" onclick="window.location.href =' . "'../index/index.php'" . '">Home</button>';
+
 } else{
         echo 'You already registered yourself on a team';
+        echo '<link rel="stylesheet" href="../../website/styling/style.css" type="text/css">';
+        echo '<button class="homeBtn" onclick="window.location.href =' . "'../index/index.php'" . '">Home</button>';
     }
 }
